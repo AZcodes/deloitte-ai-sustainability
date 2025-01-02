@@ -9,11 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        
+            
+        ZStack {
+            Color.green
+                
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+                .foregroundColor(.green)
+            HStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.black)
+                Text("Prompt Green\nAsk better questions, receive better answers.\nAll to better Earth.")
+                    .foregroundColor(.black)
+            }
+            
         }
         .padding()
     }
