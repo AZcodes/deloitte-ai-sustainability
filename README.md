@@ -1,1 +1,1 @@
-# deloitte-ai-sustainability
+# Project for Deloitte x KWK AI Sustainability with SwiftUI
