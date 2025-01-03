@@ -23,6 +23,12 @@ struct ContentView: View {
                     .foregroundColor(.black)
                 Text("Prompt Green\nAsk better questions, receive better answers.\nAll to better Earth.")
                     .foregroundColor(.black)
+                //Button(action: learnMore) {
+                //    Text("Learn More")
+               // }
+                Button("Learn More"){
+                    
+                }
             }
             
         }
