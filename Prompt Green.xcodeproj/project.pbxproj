@@ -14,6 +14,7 @@
 		E2C767672D262B3200B0CEA3 /* Prompt_GreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C767662D262B3200B0CEA3 /* Prompt_GreenTests.swift */; };
 		E2C767712D262B3200B0CEA3 /* Prompt_GreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C767702D262B3200B0CEA3 /* Prompt_GreenUITests.swift */; };
 		E2C767732D262B3300B0CEA3 /* Prompt_GreenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C767722D262B3300B0CEA3 /* Prompt_GreenUITestsLaunchTests.swift */; };
+		E2C767802D279CAA00B0CEA3 /* LearnMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C7677F2D279CAA00B0CEA3 /* LearnMoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		E2C7676C2D262B3200B0CEA3 /* Prompt GreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Prompt GreenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C767702D262B3200B0CEA3 /* Prompt_GreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt_GreenUITests.swift; sourceTree = "<group>"; };
 		E2C767722D262B3300B0CEA3 /* Prompt_GreenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt_GreenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2C7677F2D279CAA00B0CEA3 /* LearnMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnMoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,6 @@
 			children = (
 				E2C767532D262B2600B0CEA3 /* Prompt Green */,
 				E2C767652D262B3200B0CEA3 /* Prompt GreenTests */,
-				E2C7676F2D262B3200B0CEA3 /* Prompt GreenUITests */,
 				E2C767522D262B2600B0CEA3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,7 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				E2C767542D262B2600B0CEA3 /* Prompt_GreenApp.swift */,
-				E2C767562D262B2600B0CEA3 /* ContentView.swift */,
+				E2C767812D27A2B900B0CEA3 /* Views */,
 				E2C767582D262B3100B0CEA3 /* Assets.xcassets */,
 				E2C7675A2D262B3100B0CEA3 /* Prompt_Green.entitlements */,
 				E2C7675B2D262B3100B0CEA3 /* Preview Content */,
@@ -115,6 +116,7 @@
 		E2C767652D262B3200B0CEA3 /* Prompt GreenTests */ = {
 			isa = PBXGroup;
 			children = (
+				E2C7676F2D262B3200B0CEA3 /* Prompt GreenUITests */,
 				E2C767662D262B3200B0CEA3 /* Prompt_GreenTests.swift */,
 			);
 			path = "Prompt GreenTests";
@@ -127,6 +129,15 @@
 				E2C767722D262B3300B0CEA3 /* Prompt_GreenUITestsLaunchTests.swift */,
 			);
 			path = "Prompt GreenUITests";
+			sourceTree = "<group>";
+		};
+		E2C767812D27A2B900B0CEA3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2C767562D262B2600B0CEA3 /* ContentView.swift */,
+				E2C7677F2D279CAA00B0CEA3 /* LearnMoreView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +272,7 @@
 			files = (
 				E2C767572D262B2600B0CEA3 /* ContentView.swift in Sources */,
 				E2C767552D262B2600B0CEA3 /* Prompt_GreenApp.swift in Sources */,
+				E2C767802D279CAA00B0CEA3 /* LearnMoreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
