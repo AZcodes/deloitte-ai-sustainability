@@ -26,7 +26,7 @@ struct ContentView: View {
                         .imageScale(.large)
                         .foregroundColor(.black)
                     Text("Prompt Green\nAsk better questions, receive better answers.\nAll to better Earth.")
-                        .foregroundColor(.black)
+                        .foregroundColor(.gray)
                     //Button(action: learnMore) {
                     //    Text("Learn More")
                     // }
